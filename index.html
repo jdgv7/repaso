@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />  
+        <link  href="./resources/styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div>
+            <h1>Repaso de Diseño </h1>
+            <fieldset>
+                <legend>
+                    contacto
+                </legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label>
+                                Nombre
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtnName" class="textfield" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                               Lasr Nombre
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtnLastName" class="textfield" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                               Email
+                            </label>
+                        </td>
+                        <td>
+                            <input type="email" id="txtEmail" class="textfield" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                               Phone
+                            </label>
+                        </td>
+                        <td>
+                            <input type="number" id="txtPhone" class="textfield" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <button id="btnSend" class="btn" onclick="send()"> Send </button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+        <script src="resources/functions.js" type="text/javascript"></script>
+    </body>
+</html>
